@@ -30,9 +30,9 @@ public class Aula1escola {
         Aluno aluno3 = new Aluno("Adriana", 553281, dataNascimento, "adriana@aluno.br");
         
         //SETANDO AS DATAS DOS ALUNOS
-        aluno1.setDataNascimento(formato.parse("5/03/20010"));
+        aluno1.setDataNascimento(formato.parse("5/03/2010"));
         aluno2.setDataNascimento(formato.parse("1/11/2002"));
-        aluno3.setDataNascimento(formato.parse("1/01/2010"));
+        aluno3.setDataNascimento(formato.parse("1/01/2002"));
         
         //ALUNO 1
         System.out.println("Informações do Aluno1: \n");
