@@ -23,11 +23,11 @@ public class Aula1escola {
        SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy"); 
         Date dataNascimento = formato.parse("05/03/2012");
         
-        Aluno aluno1 = new Aluno("Marcos", 54321, dataNascimento, "marcos@aluno.br");
+        Aluno aluno1 = new Aluno("Marcos",1111111111, dataNascimento, "marcos@aluno.br");
         
-        Aluno aluno2 = new Aluno("Fernando", 333211, dataNascimento, "fernando@aluno.br");
+        Aluno aluno2 = new Aluno("Fernando",1111111111, dataNascimento, "fernando@aluno.br");
         
-        Aluno aluno3 = new Aluno("Adriana", 553281, dataNascimento, "adriana@aluno.br");
+        Aluno aluno3 = new Aluno("Adriana",1111111111, dataNascimento, "adriana@aluno.br");
         
         //SETANDO AS DATAS DOS ALUNOS
         aluno1.setDataNascimento(formato.parse("5/03/2010"));
